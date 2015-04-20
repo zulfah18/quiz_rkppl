@@ -32,6 +32,10 @@ public class Soal {
         return bilA * bilB;
     }
     
+    public int tambah(int  bilA, int bilB) {
+        return bilA + bilB;
+    }
+    
     public static void main(String[] args) {
         Soal s1 = new Soal();
         
@@ -39,5 +43,8 @@ public class Soal {
         
         // pangkat
         s1.pangkat(5, 2);
+        
+        // tambah
+        s1.tambah(4, 4);
     }
 }
