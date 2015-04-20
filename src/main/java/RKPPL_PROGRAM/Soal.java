@@ -36,5 +36,8 @@ public class Soal {
         Soal s1 = new Soal();
         
         s1.faktorial(5);
+        
+        // pangkat
+        s1.pangkat(5, 2);
     }
 }
